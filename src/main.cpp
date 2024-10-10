@@ -9,6 +9,7 @@
 #include "app_environment.h"
 #include "import_qml_components_plugins.h"
 #include "import_qml_plugins.h"
+#include "cppinterface.h"
 
 DatabaseManager *dbManager = nullptr;
 
@@ -20,6 +21,10 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
+
+    CppInterface cppInterface;
+    engine.rootContext()->setContextProperty("cppInterface", &cppInterface);
+
 
     dbManager = new DatabaseManager();
     engine.rootContext()->setContextProperty("dbManager", dbManager); // Expose dbManager to QML

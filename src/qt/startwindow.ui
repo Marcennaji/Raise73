@@ -70,7 +70,7 @@
          <string>Start game</string>
         </property>
         <property name="icon">
-         <iconset resource="resources/pokertraining.qrc">
+         <iconset resource="resources/Raise73.qrc">
           <normaloff>:/gfx/swbuttonlocalgame.png</normaloff>:/gfx/swbuttonlocalgame.png</iconset>
         </property>
         <property name="iconSize">
@@ -128,7 +128,7 @@
    </widget>
    <widget class="QMenu" name="menuAbout">
     <property name="title">
-     <string>About Pokertraining...</string>
+     <string>About Raise73...</string>
     </property>
     <addaction name="actionAbout_Pokertraining"/>
    </widget>
@@ -138,7 +138,7 @@
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionStartGame">
    <property name="icon">
-    <iconset resource="resources/pokertraining.qrc">
+    <iconset resource="resources/Raise73.qrc">
      <normaloff>:/gfx/swbuttonlocalgame.png</normaloff>:/gfx/swbuttonlocalgame.png</iconset>
    </property>
    <property name="text">
@@ -150,28 +150,28 @@
   </action>
   <action name="actionAboutPokerTraining">
    <property name="icon">
-    <iconset resource="resources/pokertraining.qrc">
+    <iconset resource="resources/Raise73.qrc">
      <normaloff>:/gfx/system_help_64.png</normaloff>:/gfx/system_help_64.png</iconset>
    </property>
    <property name="text">
-    <string>About PokerTraining</string>
+    <string>About Raise73</string>
    </property>
    <property name="toolTip">
-    <string>About PokerTraining</string>
+    <string>About Raise73</string>
    </property>
   </action>
   <action name="actionConfigurePokerTraining">
    <property name="icon">
-    <iconset resource="resources/pokertraining.qrc">
+    <iconset resource="resources/Raise73.qrc">
      <normaloff>:/gfx/systemsettings.png</normaloff>:/gfx/systemsettings.png</iconset>
    </property>
    <property name="text">
-    <string>Configure PokerTraining ...</string>
+    <string>Configure Raise73 ...</string>
    </property>
   </action>
   <action name="actionQuit">
    <property name="icon">
-    <iconset resource="resources/pokertraining.qrc">
+    <iconset resource="resources/Raise73.qrc">
      <normaloff>:/gfx/application_exit.png</normaloff>:/gfx/application_exit.png</iconset>
    </property>
    <property name="text">
@@ -183,12 +183,12 @@
   </action>
   <action name="actionAbout_Pokertraining">
    <property name="text">
-    <string>About Pokertraining</string>
+    <string>About Raise73</string>
    </property>
   </action>
  </widget>
  <resources>
-  <include location="resources/pokertraining.qrc"/>
+  <include location="resources/Raise73.qrc"/>
  </resources>
  <connections>
   <connection>

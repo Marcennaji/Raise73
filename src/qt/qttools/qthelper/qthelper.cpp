@@ -1,6 +1,6 @@
 /*****************************************************************************
- * PokerTraining - THNL training software, based on the PokerTH GUI          *
- * Copyright (C) 2013 Marc Ennaji                                            *
+ * Raise73 - Texas Holdem No Limit software, offline game against custom AIs *
+ * Copyright (C) 2024 Marc Ennaji                                            *
  *                                                                           *
  * This program is free software: you can redistribute it and/or modify      *
  * it under the terms of the GNU Affero General Public License as            *
@@ -66,7 +66,7 @@ std::string QtHelper::getDataPathStdString(const char * /*argv0*/)
 	}
 #else //Unix
     QRegularExpression rx;
-    rx.setPattern("PokerTraining/?$");
+    rx.setPattern("Raise73/?$");
     QRegularExpressionMatch match = rx.match(path);
     if (match.hasMatch())
     {
@@ -79,7 +79,7 @@ std::string QtHelper::getDataPathStdString(const char * /*argv0*/)
         if (match.hasMatch())
         {
             // we are in /usr/games/bin (like gentoo linux does)
-            path += "/../../share/games/PokerTraining/data/";
+            path += "/../../share/games/Raise73/data/";
         }else
         {
             rx.setPattern("usr/games/?$");
@@ -87,7 +87,7 @@ std::string QtHelper::getDataPathStdString(const char * /*argv0*/)
             if (match.hasMatch())
             {
                 // we are in /usr/games (like Debian linux does)
-                path += "/../share/games/PokerTraining/";
+                path += "/../share/games/Raise73/";
             }
             else
             {
@@ -96,7 +96,7 @@ std::string QtHelper::getDataPathStdString(const char * /*argv0*/)
                     if (match.hasMatch())
                     {
                         // we are in a bin directory. e.g. /usr/bin
-                        path += "/../share/PokerTraining/data/";
+                        path += "/../share/Raise73/data/";
                     }
                     else
                     {
@@ -110,9 +110,9 @@ std::string QtHelper::getDataPathStdString(const char * /*argv0*/)
 	return (QDir::cleanPath(path) + "/").toStdString();
 }
 // [01:09] <Zhenech> doitux|mob, mach den pfad als define, und nur wenns nich gesetzt is wildes raten
-// [01:10] <Zhenech> dann compilieren die distries mit -DDATAPTH="/usr/share/games/PokerTraining" o.ä.
+// [01:10] <Zhenech> dann compilieren die distries mit -DDATAPTH="/usr/share/games/Raise73" o.ä.
 // [01:10] <Zhenech> und du suchst eine liste ab:
-// [01:10] <Zhenech> ist es in [/usr/share/PokerTraining, /usr/share/games/PokerTraining/, /usr/local/..., $PWD/data]
+// [01:10] <Zhenech> ist es in [/usr/share/Raise73, /usr/share/games/Raise73/, /usr/local/..., $PWD/data]
 
 
 

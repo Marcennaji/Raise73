@@ -31,10 +31,16 @@ Window {
         currentIndex: swipeView.currentIndex
 
         TabButton {
-            text: qsTr("Page 1")
+            text: qsTr("Game settings")
+            onClicked: {
+                swipeView.currentIndex = 0
+            }
         }
         TabButton {
-            text: qsTr("Page 2")
+            text: qsTr("Play")
+            onClicked: {
+                swipeView.currentIndex = 1
+            }
         }
     }
 }

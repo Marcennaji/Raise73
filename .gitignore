@@ -37,5 +37,5 @@
 *.qmltypes
 *.moc
 
-# Exclude all files and directories in the build directory
-/build/
+# Exclude all files and directories in the builds directories
+/build*/

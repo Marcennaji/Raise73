@@ -26,7 +26,7 @@
    <bool>false</bool>
   </property>
   <property name="windowTitle">
-   <string>PokerTraining</string>
+   <string>Raise73</string>
   </property>
   <property name="styleSheet">
    <string notr="true">QStatusbar { height:0px; }</string>
@@ -3485,7 +3485,7 @@
   </action>
   <action name="actionFullScreen">
    <property name="icon">
-    <iconset resource="resources/pokertraining.qrc">
+    <iconset resource="resources/Raise73.qrc">
      <normaloff>:/gfx/view-fullscreen.png</normaloff>:/gfx/view-fullscreen.png</iconset>
    </property>
    <property name="text">
@@ -3519,7 +3519,7 @@
   </action>
   <action name="actionConfigurePokerTraining">
    <property name="icon">
-    <iconset resource="resources/pokertraining.qrc">
+    <iconset resource="resources/Raise73.qrc">
      <normaloff>:/gfx/systemsettings.png</normaloff>:/gfx/systemsettings.png</iconset>
    </property>
    <property name="text">
@@ -3528,7 +3528,7 @@
   </action>
   <action name="actionClose">
    <property name="icon">
-    <iconset resource="resources/pokertraining.qrc">
+    <iconset resource="resources/Raise73.qrc">
      <normaloff>:/gfx/application_exit.png</normaloff>:/gfx/application_exit.png</iconset>
    </property>
    <property name="text">
@@ -3548,7 +3548,7 @@
   </action>
   <action name="actionRanking">
    <property name="icon">
-    <iconset resource="resources/pokertraining.qrc">
+    <iconset resource="resources/Raise73.qrc">
      <normaloff>:/gfx/cup.png</normaloff>:/gfx/cup.png</iconset>
    </property>
    <property name="text">
@@ -3615,7 +3615,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="resources/pokertraining.qrc"/>
+  <include location="resources/Raise73.qrc"/>
  </resources>
  <connections/>
 </ui>

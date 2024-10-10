@@ -15,7 +15,7 @@
     <message>
         <location filename="../src/qt/styles/carddeckstylereader.cpp" line="143"/>
         <source>Selected card deck style &quot;%1&quot; seems to be outdated. 
- The current PokerTraining card deck style version is &quot;%2&quot;, but this style has version &quot;%3&quot; set. 
+ The current Raise73 card deck style version is &quot;%2&quot;, but this style has version &quot;%3&quot; set. 
 
 Please contact the card deck style builder %4.</source>
         <translation></translation>
@@ -186,7 +186,7 @@ The value(s) of:
 %2 
 is/are missing. 
 
-Anyway you can play with this style, because the missing content will be filled up by PokerTraining default style. 
+Anyway you can play with this style, because the missing content will be filled up by Raise73 default style. 
 
 Please contact the game table style builder via &quot;%3&quot;.</source>
         <translation></translation>
@@ -197,7 +197,7 @@ Please contact the game table style builder via &quot;%3&quot;.</source>
 
 %2 
 
-Anyway you can play with this style, because the missing content will be filled up by PokerTraining default style. 
+Anyway you can play with this style, because the missing content will be filled up by Raise73 default style. 
 
 Please contact the game table style builder via &quot;%3&quot;.</source>
         <translation></translation>
@@ -210,9 +210,9 @@ Please contact the game table style builder via &quot;%3&quot;.</source>
     <message>
         <location filename="../src/qt/styles/gametablestylereader.cpp" line="1473"/>
         <source>Selected game table style &quot;%1&quot; seems to be outdated. 
-The current PokerTraining game table style version is &quot;%2&quot;, but this style has version &quot;%3&quot; set. 
+The current Raise73 game table style version is &quot;%2&quot;, but this style has version &quot;%3&quot; set. 
 
-Anyway you can play with this style, because the missing content will be filled up by PokerTraining default style. 
+Anyway you can play with this style, because the missing content will be filled up by Raise73 default style. 
 
 Please contact the game table style builder  via &quot;%4&quot;.</source>
         <translation></translation>
@@ -408,8 +408,8 @@ Vous ne pourrez plus discuter ou recevoir d&apos;invitations de jeu avec ce joue
     </message>
     <message>
         <location filename="../src/qt/aboutpokertraining.ui" line="88"/>
-        <source>&lt;a href=&quot;http://sourceforge.net/projects/pokertraining/&quot; target=&quot;_blank&quot;&gt;http://sourceforge.net/projects/pokertraining/&lt;a&gt;</source>
-        <translation>&lt;a href=&quot;http://sourceforge.net/projects/pokertraining/&quot; target=&quot;_blank&quot;&gt;http://sourceforge.net/projects/pokertraining/&lt;a&gt;</translation>
+        <source>&lt;a href=&quot;http://sourceforge.net/projects/Raise73/&quot; target=&quot;_blank&quot;&gt;http://sourceforge.net/projects/Raise73/&lt;a&gt;</source>
+        <translation>&lt;a href=&quot;http://sourceforge.net/projects/Raise73/&quot; target=&quot;_blank&quot;&gt;http://sourceforge.net/projects/Raise73/&lt;a&gt;</translation>
     </message>
     <message>
         <location filename="../src/qt/aboutpokertraining.ui" line="102"/>
@@ -463,13 +463,13 @@ p, li { white-space: pre-wrap; }
     <name>aboutPokerTrainingImpl</name>
     <message>
         <location filename="../src/qt/aboutpokertraining/AboutPokerTrainingImpl.cpp" line="60"/>
-        <source>PokerTraining %1</source>
+        <source>Raise73 %1</source>
         <translation></translation>
     </message>
     <message>
         <location filename="../src/qt/aboutpokertraining/AboutPokerTrainingImpl.cpp" line="61"/>
-        <source>About PokerTraining %1</source>
-        <translation>A propos de PokerTraining</translation>
+        <source>About Raise73 %1</source>
+        <translation>A propos de Raise73</translation>
     </message>
     <message>
         <location filename="../src/qt/aboutpokertraining/AboutPokerTrainingImpl.cpp" line="65"/>
@@ -4572,7 +4572,7 @@ Vous ne pourrez plus discuter ou recevoir d&apos;invitations de jeu avec ce joue
     </message>
     <message>
         <location filename="../src/qt/gametable.ui" line="29"/>
-        <source>PokerTraining</source>
+        <source>Raise73</source>
         <translation></translation>
     </message>
     <message>
@@ -4720,7 +4720,7 @@ Veuillez choisir un nom différent.</translation>
     </message>
     <message>
         <location filename="../src/qt/gametable/gametableimpl.cpp" line="368"/>
-        <source>PokerTraining %1</source>
+        <source>Raise73 %1</source>
         <translation></translation>
     </message>
     <message>
@@ -6703,7 +6703,7 @@ Relancez PokerTH pour prendre en compte ce changement.</translation>
     <message>
         <location filename="../src/qt/settingsdialog/settingsdialogimpl.cpp" line="489"/>
         <source>You have changed application language to %1.
-Please restart PokerTraining to load new language!</source>
+Please restart Raise73 to load new language!</source>
         <translation>Vous avez modifié le paramétrage de la langue. Le changement prendra effet au redémarage du programme.</translation>
     </message>
     <message>
@@ -6782,12 +6782,12 @@ Please restart PokerTraining to load new language!</source>
     </message>
     <message>
         <location filename="../src/qt/settingsdialog/settingsdialogimpl.cpp" line="777"/>
-        <source>PokerTraining game table styles (*.xml)</source>
+        <source>Raise73 game table styles (*.xml)</source>
         <translation>Styles de tables</translation>
     </message>
     <message>
         <location filename="../src/qt/settingsdialog/settingsdialogimpl.cpp" line="903"/>
-        <source>PokerTraining card deck styles (*.xml)</source>
+        <source>Raise73 card deck styles (*.xml)</source>
         <translation>Styles de jeux de cartes</translation>
     </message>
     <message>
@@ -7017,7 +7017,7 @@ Voulez-vous vraiment réinitialiser les paramètres à leurs valeurs d&apos;orig
     <message>
         <location filename="../src/qt/startwindow.ui" line="26"/>
         <source>PokerTrain 0.9 - Holdem No Limit Sit&apos;n Go Training</source>
-        <translation>PokerTraining 0.9.  Texas Holdem No Limit - Entrainement au Sit&apos;N Go</translation>
+        <translation>Raise73 0.9.  Texas Holdem No Limit - Entrainement au Sit&apos;N Go</translation>
     </message>
     <message>
         <location filename="../src/qt/startwindow.ui" line="70"/>
@@ -7026,8 +7026,8 @@ Voulez-vous vraiment réinitialiser les paramètres à leurs valeurs d&apos;orig
     </message>
     <message>
         <location filename="../src/qt/startwindow.ui" line="131"/>
-        <source>About Pokertraining...</source>
-        <translation>A propos de PokerTraining...</translation>
+        <source>About Raise73...</source>
+        <translation>A propos de Raise73...</translation>
     </message>
     <message>
         <location filename="../src/qt/startwindow.ui" line="145"/>
@@ -7037,13 +7037,13 @@ Voulez-vous vraiment réinitialiser les paramètres à leurs valeurs d&apos;orig
     <message>
         <location filename="../src/qt/startwindow.ui" line="157"/>
         <location filename="../src/qt/startwindow.ui" line="160"/>
-        <source>About PokerTraining</source>
-        <translation>A propos de PokerTraining</translation>
+        <source>About Raise73</source>
+        <translation>A propos de Raise73</translation>
     </message>
     <message>
         <location filename="../src/qt/startwindow.ui" line="186"/>
-        <source>About Pokertraining</source>
-        <translation>A propos de PokerTraining</translation>
+        <source>About Raise73</source>
+        <translation>A propos de Raise73</translation>
     </message>
     <message>
         <source>Start Local Game ...</source>
@@ -7068,7 +7068,7 @@ Voulez-vous vraiment réinitialiser les paramètres à leurs valeurs d&apos;orig
     </message>
     <message>
         <location filename="../src/qt/startwindow.ui" line="169"/>
-        <source>Configure PokerTraining ...</source>
+        <source>Configure Raise73 ...</source>
         <translation>Configurer</translation>
     </message>
     <message>
@@ -7439,7 +7439,7 @@ Veuillez choisir un nom différent.</translation>
     </message>
     <message>
         <location filename="../src/qt/startwindow/startwindowimpl.cpp" line="51"/>
-        <source>PokerTraining %1</source>
+        <source>Raise73 %1</source>
         <translation></translation>
     </message>
 </context>

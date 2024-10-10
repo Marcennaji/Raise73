@@ -1,6 +1,6 @@
 /*****************************************************************************
- * PokerTraining - THNL training software, based on the PokerTH GUI          *
-* Copyright (C) 2013 Marc Ennaji                                            *
+ * Raise73 - Texas Holdem No Limit software, offline game against custom AIs *
+* Copyright (C) 2024 Marc Ennaji                                            *
 *                                                                           *
 * This program is free software: you can redistribute it and/or modify      *
 * it under the terms of the GNU Affero General Public License as            *

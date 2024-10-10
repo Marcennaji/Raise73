@@ -12,7 +12,6 @@ import Raise73
 Rectangle {
     width: Constants.width
     height: Constants.height
-
     color: Constants.backgroundColor
 
     Text {
